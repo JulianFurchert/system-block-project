@@ -31,10 +31,3 @@ const Page:React.FC = () => {
 }
 
 export default Page
-
-// export async function getStaticProps() {
-//   const sourceCode = await getComponentByName('Button.tsx')
-//   return {
-//     props: { sourceCode }
-//   }
-// }

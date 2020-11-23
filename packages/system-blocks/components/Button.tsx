@@ -3,6 +3,7 @@ import { StitchesProps, StitchesVariants, styled } from '../stitches.config';
 export type ButtonProps = StitchesProps<typeof Button>;
 export type ButtonVariants = StitchesVariants<typeof Button>;
 
+
 export const Button = styled('button', {
   // Reset
   alignItems: 'center',
