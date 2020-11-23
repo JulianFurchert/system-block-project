@@ -1,16 +1,8 @@
 export const componentsNav = [
   {
-    name: 'Avatar',
-    href: '/components/Avatar'
-  },
-  {
     name: 'Button',
     href: '/components/Button',
   },
-  {
-    name: 'Card',
-    href: '/components/Card'
-  }
 ]
 
 export const docsNav = [
