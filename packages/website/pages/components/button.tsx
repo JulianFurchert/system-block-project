@@ -1,17 +1,10 @@
 import { Text, Separator, ComponentBox } from '../../components';
 import { SidebarLayout } from '../../composites';
 import { componentsNav } from '../../navigation';
-import { getComponentByName } from '../../utils/componentFiles';
 import { Button } from '../../components';
-import Meta from '../../../system-blocks/stories/Button.stories.tsx';
+import componentsFiles from '../../allComponentFiles.json';
 
-type Page = {
-  sourceCode: string | null
-}
-
-const Page: React.FC<Page> = ({ sourceCode }) => {
-  console.log(Meta)
-
+const Page:React.FC = () => {
   return(
     <SidebarLayout menu={componentsNav}>
       <Text weight="heading" as="h1" size='8'>
@@ -19,7 +12,7 @@ const Page: React.FC<Page> = ({ sourceCode }) => {
       </Text>
       <ComponentBox
         title="Button"
-        sourceCode={sourceCode}
+        sourceCode={componentsFiles['Button.tsx']}
         variants={{
           button: {
             variant: ['blue', 'green'],
@@ -39,9 +32,9 @@ const Page: React.FC<Page> = ({ sourceCode }) => {
 
 export default Page
 
-export async function getStaticProps() {
-  const sourceCode = await getComponentByName('Button.tsx')
-  return {
-    props: { sourceCode }
-  }
-}
+// export async function getStaticProps() {
+//   const sourceCode = await getComponentByName('Button.tsx')
+//   return {
+//     props: { sourceCode }
+//   }
+// }

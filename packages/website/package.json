@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prebuild": "npm run readFiles",
-    "readFiles": "node prebuild.js"
+    "prebuild": "node prebuild.js"
   },
   "dependencies": {
     "@interop-ui/react-accordion": "0.0.1-12",
