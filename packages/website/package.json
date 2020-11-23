@@ -9,6 +9,7 @@
     "prebuild": "node createPages.js"
   },
   "dependencies": {
+    "@componentdriven/csf": "^0.0.2-alpha.0",
     "@interop-ui/react-accordion": "0.0.1-12",
     "@interop-ui/react-avatar": "0.0.1-11",
     "@interop-ui/react-checkbox": "0.0.1-13",
