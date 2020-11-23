@@ -1,15 +1,15 @@
 export const componentsNav = [
   {
     name: 'Avatar',
-    href: '/components/avatar'
+    href: '/components/Avatar'
   },
   {
     name: 'Button',
-    href: '/components/button',
+    href: '/components/Button',
   },
   {
     name: 'Card',
-    href: '/components/card'
+    href: '/components/Card'
   }
 ]
 
