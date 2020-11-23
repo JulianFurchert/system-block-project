@@ -26,7 +26,7 @@ export const Header: React.FC = () => {
           </NextLink>
           <Flex>
             {headerNav.map(item => (
-              <NextLink href={item.href} passHref>
+              <NextLink key={item.href} href={item.href} passHref>
                 <Link css={{ marginLeft: '$4' }}>
                   {item.name} 
                 </Link>
