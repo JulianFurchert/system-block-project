@@ -2,7 +2,7 @@ import { Text, Separator, ComponentBox } from '../../components';
 import { SidebarLayout } from '../../composites';
 import { componentsNav } from '../../navigation';
 import { Button } from '../../components';
-import componentsFiles from '../../allComponentFiles.json';
+import componentsFiles from '../../components.json';
 
 const Page:React.FC = () => {
   return(
