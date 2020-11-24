@@ -3,6 +3,7 @@
 # dependencies
 # build output
 dist
+dist
 .next
 
 # dependencies
